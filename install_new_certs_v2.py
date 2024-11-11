@@ -75,6 +75,7 @@ def install():
     clear_directory(os.path.join(dest_dir_my, 'Certificates'))
     clear_directory(os.path.join(dest_dir_my, 'Keys'))
 
+
     if os.path.exists(dest_dir_cont):
         shutil.rmtree(dest_dir_cont)
 
