@@ -4,6 +4,7 @@ import re
 import tkinter as tk
 from tkinter import messagebox
 
+
 def show_message(message):
     """Отображает сообщение во всплывающем окне."""
     root.lift()
